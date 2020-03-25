@@ -47,3 +47,6 @@
 2020-03-25 19:32:07,723 INFO o.a.j.s.SaveService: Loading file: /home/thegentleman/Schreibtisch/JMeter Testing/apache-jmeter-5.2.1/Test Plans/Kafka Demo-internal-IP.jmx
 2020-03-25 19:32:08,274 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
 2020-03-25 19:32:08,344 INFO o.a.j.s.FileServer: Set new base='/home/thegentleman/Schreibtisch/JMeter Testing/apache-jmeter-5.2.1/Test Plans'
+2020-03-25 20:55:07,234 INFO o.a.j.s.FileServer: Set new base='/home/thegentleman/Schreibtisch/JMeter Testing/apache-jmeter-5.2.1/Test Plans'
+2020-03-25 20:55:15,044 INFO o.a.j.s.FileServer: Set new base='/home/thegentleman/Schreibtisch/JMeter Testing/apache-jmeter-5.2.1/Test Plans'
+2020-03-25 20:55:26,733 INFO o.a.j.s.FileServer: Set new base='/home/thegentleman/Schreibtisch/JMeter Testing/apache-jmeter-5.2.1/Test Plans'
