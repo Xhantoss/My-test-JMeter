@@ -40,7 +40,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="kafka_brokers" elementType="Argument">
                 <stringProp name="Argument.name">kafka_brokers</stringProp>
-                <stringProp name="Argument.value">141.83.159.62:31090</stringProp>
+                <stringProp name="Argument.value">10.98.242.117:9092</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="kafka_topic" elementType="Argument">

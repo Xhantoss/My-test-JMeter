@@ -20,7 +20,7 @@
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">8</stringProp>
         <stringProp name="ThreadGroup.ramp_time">0</stringProp>
-        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration">30</stringProp>
         <stringProp name="ThreadGroup.delay">0</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
@@ -40,12 +40,12 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="kafka_brokers" elementType="Argument">
                 <stringProp name="Argument.name">kafka_brokers</stringProp>
-                <stringProp name="Argument.value">141.83.159.62:31090</stringProp>
+                <stringProp name="Argument.value">10.98.242.117:9092</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="kafka_topic" elementType="Argument">
                 <stringProp name="Argument.name">kafka_topic</stringProp>
-                <stringProp name="Argument.value">repl1</stringProp>
+                <stringProp name="Argument.value">repl3</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="kafka_key" elementType="Argument">

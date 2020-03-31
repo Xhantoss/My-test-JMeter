@@ -18,10 +18,10 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">8</stringProp>
+        <stringProp name="ThreadGroup.num_threads">12</stringProp>
         <stringProp name="ThreadGroup.ramp_time">0</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">30</stringProp>
+        <stringProp name="ThreadGroup.duration">40</stringProp>
         <stringProp name="ThreadGroup.delay">0</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
@@ -45,7 +45,7 @@
               </elementProp>
               <elementProp name="kafka_topic" elementType="Argument">
                 <stringProp name="Argument.name">kafka_topic</stringProp>
-                <stringProp name="Argument.value">repl1</stringProp>
+                <stringProp name="Argument.value">loadingevents</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="kafka_key" elementType="Argument">
@@ -55,7 +55,7 @@
               </elementProp>
               <elementProp name="kafka_message" elementType="Argument">
                 <stringProp name="Argument.name">kafka_message</stringProp>
-                <stringProp name="Argument.value">Foo ${msg_count} ${rand} ${rand} ${rand} ${rand} ${rand} ${rand} ${rand} ${rand} ${rand}</stringProp>
+                <stringProp name="Argument.value">Message from docktest4! ${msg_count} ${rand}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="kafka_message_serializer" elementType="Argument">
@@ -193,7 +193,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">/home/thegentleman/Schreibtisch/JMeter Testing/apache-jmeter-5.2.1/My-JMeter.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
