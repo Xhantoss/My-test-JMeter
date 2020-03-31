@@ -45,7 +45,7 @@
               </elementProp>
               <elementProp name="kafka_topic" elementType="Argument">
                 <stringProp name="Argument.name">kafka_topic</stringProp>
-                <stringProp name="Argument.value">repl1</stringProp>
+                <stringProp name="Argument.value">test</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="kafka_key" elementType="Argument">
